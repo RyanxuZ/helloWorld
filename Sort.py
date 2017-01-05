@@ -13,7 +13,7 @@ def Caplized(i):
 		result.append(x)
 	return result
 
-os.chdir("C++ HTML")
+os.chdir("C++ HTML") this is xuxuxuxuxuxuxuxu
 for fileName in os.listdir('.'):
 	if fileName.endswith(".html"):
 		names = Caplized(fileName.split('-'))  this is Yang and Zhuanran
