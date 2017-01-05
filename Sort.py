@@ -16,7 +16,7 @@ def Caplized(i):
 os.chdir("C++ HTML")
 for fileName in os.listdir('.'):
 	if fileName.endswith(".html"):
-		names = Caplized(fileName.split('-')) 
+		names = Caplized(fileName.split('-'))  this is me
 		folderName = ' '.join(names[0:len(names) - 1])
 		newFileName = ' '.join(names)
 		if not os.path.exists('../dodo/' + folderName):
