@@ -16,7 +16,7 @@ def Caplized(i):
 os.chdir("C++ HTML")
 for fileName in os.listdir('.'):
 	if fileName.endswith(".html"):
-		names = Caplized(fileName.split('-'))  this is Yang
+		names = Caplized(fileName.split('-'))  this is Yang and Zhuanran
 		folderName = ' '.join(names[0:len(names) - 1])
 		newFileName = ' '.join(names)
 		if not os.path.exists('../dodo/' + folderName):
